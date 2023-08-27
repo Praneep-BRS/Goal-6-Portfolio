@@ -430,6 +430,9 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .skills-heading::after {
+    width: 100%;
+  }
   .img-section {
     height: auto;
     grid-row: 1;
