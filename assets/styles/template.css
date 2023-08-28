@@ -118,3 +118,19 @@
 .project-img img:hover {
   transform: scale(1.12);
 }
+
+@media (max-width: 1080px) {
+  .project-img-container {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (max-width: 800px) {
+  .project-img-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 395px) {
+  .project-img-container {
+    grid-template-columns: auto;
+  }
+}
