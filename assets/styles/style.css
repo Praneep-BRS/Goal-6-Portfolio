@@ -5,16 +5,21 @@
   padding: 0;
   box-sizing: inherit;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  color: #202020;
+}
 a:link,
 a:active {
   text-decoration: none;
 }
-body {
-  font-family: "Inter", sans-serif;
-  box-sizing: border-box;
+p {
+  line-height: 1.4;
 }
 .img-responsive {
-  width: 100%;
+  max-width: 100%;
 }
 .container {
   max-width: 1140px;
@@ -202,6 +207,7 @@ body {
 .btn {
   background: none;
   border-radius: 3px;
+  font-family: inherit;
 }
 .btn:hover {
   cursor: pointer;
@@ -218,6 +224,7 @@ body {
   font-weight: 500;
   gap: 15px;
   align-items: center;
+  justify-content: center;
 }
 
 .work-img-right img,

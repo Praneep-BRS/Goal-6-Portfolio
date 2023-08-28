@@ -1,0 +1,119 @@
+.casestudy-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 35px 0;
+}
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.back-icn {
+  transform: scaleX(-1);
+}
+.breadcrumb a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #202020;
+  transition: all 0.3s;
+}
+.breadcrumb a:hover {
+  color: #004fc5;
+}
+
+.casestudy-banner {
+  background: rgb(225, 112, 104)
+    linear-gradient(225deg, rgb(225, 112, 104), rgb(235 136 176));
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-heading {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+  filter: drop-shadow(1px 2px 4px #0000002c);
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.project-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.project-heading,
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.project-description {
+  gap: 15px;
+}
+.project-goal {
+  background-color: rgb(240, 240, 240);
+  border-left: 5px solid #e67c8b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heading-tertiary {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.user-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.user-flow-img {
+  max-width: 90%;
+  padding: 60px;
+  background-color: #f7f7f7d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #a0a0a067;
+  align-self: center;
+}
+.user-flow-img img {
+  width: 85%;
+  transition: all 0.5s;
+}
+.user-flow-img img:hover {
+  transform: scale(1.2);
+}
+.project-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.project-img-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+}
+.project-img {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 2px 4px #0000002c);
+  padding: 25px;
+}
+.project-img img {
+  transition: all 0.3s;
+}
+.project-img img:hover {
+  transform: scale(1.12);
+}
