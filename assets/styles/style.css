@@ -212,21 +212,36 @@ p {
 .btn:hover {
   cursor: pointer;
 }
-.btn-secondary {
+
+.btn.btn-secondary {
   padding: 12px 25px;
   font-size: 15px;
   font-weight: 500;
+  border: 2px solid #202020;
+  color: #202020;
 }
-.btn-primary {
+.btn.btn-primary {
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #202020;
+  background: #202020;
+  color: #fff;
+}
+.btn-primary-1 {
   display: flex;
   padding: 12px 25px;
   font-size: 20px;
   font-weight: 500;
   gap: 15px;
+  border: 2px solid #202020;
   align-items: center;
   justify-content: center;
 }
-
+.cta-btns {
+  display: flex;
+  gap: 15px;
+}
 .work-img-right img,
 .work-img-left img {
   width: 370px;
@@ -249,8 +264,12 @@ p {
   background: #2e5ff2;
 }
 .green {
-  background: #78be20;
+  background: #009688;
 }
+.black {
+  background: #131313;
+}
+
 .left {
   grid-row: 1;
 }
@@ -399,10 +418,7 @@ p {
   ul li {
     font-size: 18px;
   }
-  .btn-secondary {
-    padding: 14px 28px;
-    font-size: 20px;
-  }
+
   .header {
     background: #fff;
   }
